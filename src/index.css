@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button1{
+        @apply bg-blue-600 text-white py-2 px-6 border border-blue-700 hover:bg-blue-700 rounded-lg shadow hover:shadow-lg
+    }
+    .button2{
+        @apply bg-blue-500 text-white py-2 px-6 border border-blue-600 hover:bg-blue-600 rounded-lg shadow hover:shadow-lg duration-300
+    }
+}
