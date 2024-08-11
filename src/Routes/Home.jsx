@@ -16,7 +16,8 @@ const Home = () => {
   return (
     <main>
        <h1> This is Home Page</h1>
-       <button onClick={() => handleLogOut()} className=" py-2 px-6 border rounded-lg mt-2 hover:bg-red-700 hover:text-white duration-300">Log Out</button>
+       <button onClick={() => handleLogOut()} className=" py-2 px-6 border rounded-lg mt-2
+        hover:bg-red-700 hover:text-white duration-300">Log Out</button>
     </main>
   )
 }
